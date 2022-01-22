@@ -1,0 +1,32 @@
+.container{
+			background-color:#2b6777;
+			height: 800px;
+			width: 1350px;
+		}
+		header{
+			background-color:#c8d8e4;
+			height: 100px;
+			width: 1350px
+		}
+		section{
+			background-color:#ffffff;
+			height: 800px;
+			width: 1350px
+		    color: white;
+		}
+		footer{
+			background-color:#52ab98;
+			height: 200px;
+			width: 1350px
+		}
+			.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
